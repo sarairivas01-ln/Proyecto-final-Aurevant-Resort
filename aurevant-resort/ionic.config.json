@@ -1,0 +1,7 @@
+{
+  "name": "aurevant-resort",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
