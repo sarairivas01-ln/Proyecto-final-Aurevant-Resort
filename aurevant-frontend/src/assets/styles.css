@@ -1,0 +1,31 @@
+/* src/assets/styles.css  —  impórtalo en main.js */
+:root {
+  --aurevant-verde: #0F3D2E;
+  --aurevant-dorado: #D4B483;
+  --aurevant-crema: #F7EFE3;
+  --aurevant-carbon: #1A1A1A;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  color: var(--aurevant-carbon);
+}
+
+/* Tarjetas con borde dorado suave, como en tus capturas */
+.v-card {
+  border: 1px solid rgba(212, 180, 131, 0.45) !important;
+}
+
+/* Tablas limpias */
+.v-table {
+  background: transparent !important;
+}
+.v-table thead th {
+  color: #6B6459 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+.v-table tbody td {
+  border-bottom: 1px solid rgba(212, 180, 131, 0.25) !important;
+}
